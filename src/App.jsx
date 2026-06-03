@@ -4,7 +4,7 @@ import { Scale, Phone, Mail, MapPin, Shield, Gavel } from "lucide-react";
 export default function App() {
   const services = [
     "[CIVIL LAW]",
-    "[CRIMINAL DEFENSE]",
+    "[CRIMINAL DEFfENSE]",
     "[FAMILY LAW]",
     "[CORPORATE LAW]",
     "[PROPERTY LAW]",
