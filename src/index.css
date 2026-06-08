@@ -1,26 +1,29 @@
 @import "tailwindcss";
+
 html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #ffffff;
+  color: #111827;
+  font-family: system-ui, sans-serif;
+}
+
+/* scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #0f172a;
+  background: #f3f4f6;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #d4af37;
+  background: #c8a24a;
   border-radius: 999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #e6c65c;
-}
-
-* {
-  scrollbar-width: thin;
-  scrollbar-color: #d4af37 #0f172a;
+  background: #e2c46b;
 }
