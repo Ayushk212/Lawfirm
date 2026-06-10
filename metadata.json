@@ -1,0 +1,6 @@
+{
+  "name": "Law Firm Landing Page",
+  "description": "A visually polished landing page for a law firm featuring a hero section, practice stats, a 'why choose us' grid, and a call-to-action.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
