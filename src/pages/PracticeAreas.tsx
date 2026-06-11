@@ -57,7 +57,7 @@ export default function PracticeAreas() {
       <section className="relative h-[400px] w-full flex items-center justify-center bg-[#0A1C35] overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1453728280008-090199616d57?q=80&w=2000&auto=format&fit=crop" 
+            src="/practice_hero.png" 
             alt="Law library books" 
             className="w-full h-full object-cover opacity-20 mix-blend-luminosity"
           />
