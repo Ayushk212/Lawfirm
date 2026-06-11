@@ -62,7 +62,7 @@ export default function About() {
       </section>
 
       {/* Overview / Narrative */}
-      <section className="px-6 md:px-12 lg:px-24 py-24 max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+      <section className="px-6 md:px-12 lg:px-24 py-24 max-w-7xl mx-auto min-h-[115vh] flex flex-col justify-center lg:grid lg:grid-cols-2 lg:gap-16 lg:items-center">
         <motion.div 
           initial="hidden"
           whileInView="visible"
@@ -91,15 +91,15 @@ export default function About() {
           <img 
             src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1200&auto=format&fit=crop" 
             alt="Law firm meeting room table" 
-            className="w-full h-[450px] object-cover"
+            className="w-full h-[400px] object-cover"
           />
         </motion.div>
       </section>
 
       {/* Core Values */}
-      <section className="bg-[#EBE6DA] py-24 border-y border-[#D6CFC0]">
+      <section className="bg-[#EBE6DA] py-24 border-y border-[#D6CFC0] min-h-[115vh] flex flex-col justify-center">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24">
-          <div className="text-center mb-20">
+          <div className="text-center mb-12">
             <h2 className="text-4xl font-cinzel font-bold text-[#0A1C35]">OUR CORE VALUES</h2>
             <div className="w-24 h-1 bg-[#B9975B] mx-auto mt-6"></div>
           </div>
@@ -132,8 +132,8 @@ export default function About() {
       </section>
 
       {/* History Timeline */}
-      <section className="py-24 max-w-7xl mx-auto px-6 md:px-12 lg:px-24">
-        <div className="text-center mb-20">
+      <section className="py-24 max-w-7xl mx-auto px-6 md:px-12 lg:px-24 min-h-[115vh] flex flex-col justify-center">
+        <div className="text-center mb-10">
           <h2 className="text-4xl font-cinzel font-bold text-[#0A1C35]">FIRM MILESTONES</h2>
           <div className="w-24 h-1 bg-[#B9975B] mx-auto mt-6"></div>
         </div>
@@ -146,7 +146,7 @@ export default function About() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
-              className={`relative mb-16 md:w-[45%] md:ml-auto ${
+              className={`relative mb-12 md:w-[45%] md:ml-auto ${
                 idx % 2 === 0 ? 'md:mr-auto md:ml-0 md:text-right' : 'md:text-left'
               }`}
             >
