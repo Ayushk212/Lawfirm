@@ -52,7 +52,7 @@ export default function Contact() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="text-4xl md:text-6xl font-cinzel font-bold text-white tracking-wide"
           >
-            CONTACT & CONSULTATION
+            Contact & Consultation
           </motion.h1>
           <motion.div 
             initial={{ scaleX: 0 }}
@@ -64,7 +64,7 @@ export default function Contact() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
-            className="text-lg md:text-xl text-[#B9975B] font-cormorant font-medium mt-3 uppercase tracking-widest"
+            className="text-lg md:text-xl text-[#B9975B] font-cormorant font-medium mt-3 tracking-widest"
           >
             Confidential Consultation Scheduling
           </motion.p>
@@ -97,7 +97,7 @@ export default function Contact() {
               >
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="name" className="block text-xs font-sans font-bold tracking-wider uppercase mb-2">Full Name</label>
+                    <label htmlFor="name" className="block text-xs font-sans font-bold tracking-wider mb-2">Full Name</label>
                     <input 
                       type="text" 
                       id="name" 
@@ -109,7 +109,7 @@ export default function Contact() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="email" className="block text-xs font-sans font-bold tracking-wider uppercase mb-2">Email Address</label>
+                    <label htmlFor="email" className="block text-xs font-sans font-bold tracking-wider mb-2">Email Address</label>
                     <input 
                       type="email" 
                       id="email" 
@@ -124,7 +124,7 @@ export default function Contact() {
 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
-                    <label htmlFor="phone" className="block text-xs font-sans font-bold tracking-wider uppercase mb-2">Phone Number</label>
+                    <label htmlFor="phone" className="block text-xs font-sans font-bold tracking-wider mb-2">Phone Number</label>
                     <input 
                       type="tel" 
                       id="phone" 
@@ -135,7 +135,7 @@ export default function Contact() {
                     />
                   </div>
                   <div>
-                    <label htmlFor="category" className="block text-xs font-sans font-bold tracking-wider uppercase mb-2">Practice Area</label>
+                    <label htmlFor="category" className="block text-xs font-sans font-bold tracking-wider mb-2">Practice Area</label>
                     <select 
                       id="category" 
                       name="category"
@@ -156,7 +156,7 @@ export default function Contact() {
                 </div>
 
                 <div>
-                  <label htmlFor="message" className="block text-xs font-sans font-bold tracking-wider uppercase mb-2">Description of Matter</label>
+                  <label htmlFor="message" className="block text-xs font-sans font-bold tracking-wider mb-2">Description of Matter</label>
                   <textarea 
                     id="message" 
                     name="message"
@@ -176,11 +176,11 @@ export default function Contact() {
                 >
                   {isSubmitting ? (
                     <>
-                      <Scale className="w-4 h-4 animate-spin" /> SUBMITTING...
+                      <Scale className="w-4 h-4 animate-spin" /> Submitting...
                     </>
                   ) : (
                     <>
-                      <Send className="w-4 h-4" /> SEND REQUEST
+                      <Send className="w-4 h-4" /> Send Request
                     </>
                   )}
                 </button>
@@ -203,7 +203,7 @@ export default function Contact() {
                   onClick={() => setIsSubmitted(false)}
                   className="bg-[#0A1C35] text-white px-6 py-3 hover:bg-[#B9975B] hover:text-[#0A1C35] transition font-cinzel text-xs font-semibold tracking-wider cursor-pointer shadow-md"
                 >
-                  NEW SUBMISSION
+                  New Submission
                 </button>
               </motion.div>
             )}
@@ -277,7 +277,7 @@ export default function Contact() {
             <div className="absolute inset-0 opacity-15 mix-blend-overlay bg-repeat" style={{ backgroundImage: 'radial-gradient(circle, #000 10%, transparent 11%)', backgroundSize: '10px 10px' }}></div>
             <div className="absolute inset-0 bg-[#0A1C35]/5 group-hover:bg-transparent transition-colors duration-500"></div>
             <MapPin className="w-10 h-10 text-[#B9975B] mb-2 group-hover:bounce transition-all duration-300" />
-            <h4 className="font-cinzel font-bold text-xs text-[#0A1C35] uppercase tracking-widest">Map View (Connaught Place)</h4>
+            <h4 className="font-cinzel font-bold text-xs text-[#0A1C35] tracking-widest">Map View (Connaught Place)</h4>
             <p className="text-[10px] font-sans text-[#0A1C35]/65 mt-1">Delhi metro parking access available</p>
           </div>
         </motion.div>

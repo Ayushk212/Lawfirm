@@ -42,7 +42,7 @@ export default function About() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="text-4xl md:text-6xl font-cinzel font-bold text-white tracking-wide"
           >
-            OUR FIRM
+            Our Firm
           </motion.h1>
           <motion.div 
             initial={{ scaleX: 0 }}
@@ -54,7 +54,7 @@ export default function About() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
-            className="text-lg md:text-xl text-[#B9975B] font-cormorant font-medium mt-3 uppercase tracking-widest"
+            className="text-lg md:text-xl text-[#B9975B] font-cormorant font-medium mt-3 tracking-widest"
           >
             A Legacy of Uncompromising Advocacy
           </motion.p>
@@ -69,7 +69,7 @@ export default function About() {
           viewport={{ once: true, margin: "-100px" }}
           variants={staggerContainer}
         >
-          <motion.h3 variants={fadeInUp} className="font-cinzel text-[#B9975B] font-bold tracking-widest text-sm mb-4">OUR STORY</motion.h3>
+          <motion.h3 variants={fadeInUp} className="font-cinzel text-[#B9975B] font-bold tracking-widest text-sm mb-4">Our Story</motion.h3>
           <motion.h2 variants={fadeInUp} className="text-4xl md:text-5xl font-cormorant font-bold mb-8 leading-tight">
             Built on trust, integrity, and relentless preparation.
           </motion.h2>
@@ -100,7 +100,7 @@ export default function About() {
       <section className="bg-[#EBE6DA] py-24 border-y border-[#D6CFC0] min-h-[115vh] flex flex-col justify-center">
         <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-cinzel font-bold text-[#0A1C35]">OUR CORE VALUES</h2>
+            <h2 className="text-4xl font-cinzel font-bold text-[#0A1C35]">Our Core Values</h2>
             <div className="w-24 h-1 bg-[#B9975B] mx-auto mt-6"></div>
           </div>
 
@@ -134,7 +134,7 @@ export default function About() {
       {/* History Timeline */}
       <section className="py-24 max-w-7xl mx-auto px-6 md:px-12 lg:px-24 min-h-[115vh] flex flex-col justify-center">
         <div className="text-center mb-10">
-          <h2 className="text-4xl font-cinzel font-bold text-[#0A1C35]">FIRM MILESTONES</h2>
+          <h2 className="text-4xl font-cinzel font-bold text-[#0A1C35]">Firm Milestones</h2>
           <div className="w-24 h-1 bg-[#B9975B] mx-auto mt-6"></div>
         </div>
 

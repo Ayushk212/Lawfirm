@@ -65,7 +65,7 @@ export default function Attorneys() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="text-4xl md:text-6xl font-cinzel font-bold text-white tracking-wide"
           >
-            OUR PROFESSIONAL ADVOCATES
+            Our Professional Advocates
           </motion.h1>
           <motion.div 
             initial={{ scaleX: 0 }}
@@ -77,7 +77,7 @@ export default function Attorneys() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
-            className="text-lg md:text-xl text-[#B9975B] font-cormorant font-medium mt-3 uppercase tracking-widest"
+            className="text-lg md:text-xl text-[#B9975B] font-cormorant font-medium mt-3 tracking-widest"
           >
             A Collective of Experienced and Formidable Minds
           </motion.p>
@@ -116,7 +116,7 @@ export default function Attorneys() {
                   <div className="flex flex-col md:flex-row md:items-baseline justify-between border-b border-[#B9975B]/30 pb-4 mb-6 gap-2">
                     <div>
                       <h2 className="text-3xl font-cinzel font-bold text-[#0A1C35]">{attorney.name}</h2>
-                      <p className="text-sm font-sans font-bold text-[#B9975B] tracking-wider uppercase mt-1">{attorney.role}</p>
+                      <p className="text-sm font-sans font-bold text-[#B9975B] tracking-wider mt-1">{attorney.role}</p>
                     </div>
                     <span className="text-base md:text-lg font-cormorant italic font-semibold text-[#0A1C35]/70">{attorney.specialty}</span>
                   </div>
@@ -130,7 +130,7 @@ export default function Attorneys() {
                     <div>
                       <div className="flex items-center gap-2 mb-3">
                         <GraduationCap className="w-5 h-5 text-[#B9975B]" />
-                        <h4 className="font-cinzel text-xs font-bold tracking-wider text-[#0A1C35] uppercase">Education</h4>
+                        <h4 className="font-cinzel text-xs font-bold tracking-wider text-[#0A1C35]">Education</h4>
                       </div>
                       <ul className="space-y-2">
                         {attorney.education.map((edu, eIdx) => (
@@ -146,7 +146,7 @@ export default function Attorneys() {
                     <div>
                       <div className="flex items-center gap-2 mb-3">
                         <Award className="w-5 h-5 text-[#B9975B]" />
-                        <h4 className="font-cinzel text-xs font-bold tracking-wider text-[#0A1C35] uppercase">Credentials</h4>
+                        <h4 className="font-cinzel text-xs font-bold tracking-wider text-[#0A1C35]">Credentials</h4>
                       </div>
                       <ul className="space-y-2">
                         {attorney.accolades.map((acc, aIdx) => (
@@ -165,7 +165,7 @@ export default function Attorneys() {
                     href={`mailto:contact@vadheraassociates.com?subject=Consultation with ${attorney.name}`}
                     className="inline-flex items-center gap-2 bg-[#0A1C35] text-white px-6 py-3 hover:bg-[#B9975B] hover:text-[#0A1C35] transition font-cinzel text-xs font-semibold tracking-wider cursor-pointer shadow-md"
                   >
-                    <Mail className="w-4 h-4" /> CONTACT COUNSEL
+                    <Mail className="w-4 h-4" /> Contact Counsel
                   </a>
                 </div>
               </div>

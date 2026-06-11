@@ -56,13 +56,13 @@ export default function Home() {
           >
             <Link to="/contact">
               <button className="bg-[#B9975B] text-[#0A1C35] font-cinzel font-bold tracking-widest px-10 py-5 hover:bg-white transition border border-[#B9975B] text-sm shadow-2xl cursor-pointer hover:shadow-[#B9975B]/20">
-                SCHEDULE A CONSULTATION
+                Schedule a Consultation
               </button>
             </Link>
           </motion.div>
         </div>
       </section>
-
+ 
       {/* Intro / Experience */}
       <section className="w-full px-6 md:px-12 lg:px-24 py-20 min-h-[80vh] flex flex-col lg:flex-row gap-16 lg:gap-24 items-center justify-center bg-[#F5F2EA]">
         <motion.div 
@@ -72,7 +72,7 @@ export default function Home() {
           variants={staggerContainer}
           className="lg:w-1/2 max-w-3xl"
         >
-          <motion.h3 variants={fadeInUp} className="font-cinzel text-[#B9975B] font-bold tracking-widest text-sm mb-4">OUR COMMITMENT</motion.h3>
+          <motion.h3 variants={fadeInUp} className="font-cinzel text-[#B9975B] font-bold tracking-widest text-sm mb-4">Our Commitment</motion.h3>
           <motion.h2 variants={fadeInUp} className="text-4xl md:text-6xl font-cormorant font-bold text-[#0A1C35] mb-8 leading-tight">
             Experience that commands respect in the courtroom.
           </motion.h2>
@@ -101,7 +101,7 @@ export default function Home() {
           </div>
         </motion.div>
       </section>
-
+ 
       {/* Practice Areas */}
       <section className="bg-[#EBE6DA] py-24 border-y border-[#D6CFC0] min-h-[85vh] flex flex-col justify-center">
         <div className="w-full px-6 md:px-12 lg:px-24">
@@ -112,7 +112,7 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="text-center mb-20"
           >
-            <h2 className="text-4xl md:text-6xl font-cinzel font-bold text-[#0A1C35]">AREAS OF PRACTICE</h2>
+            <h2 className="text-4xl md:text-6xl font-cinzel font-bold text-[#0A1C35]">Areas of Practice</h2>
             <div className="w-32 h-1 bg-[#B9975B] mx-auto mt-8"></div>
           </motion.div>
           
@@ -137,7 +137,7 @@ export default function Home() {
                 <h3 className="font-cinzel text-3xl font-bold text-[#0A1C35] mb-6">{area.title}</h3>
                 <p className="text-[#0A1C35]/70 leading-relaxed text-xl flex-grow">{area.desc}</p>
                 <Link to="/practice-areas" className="inline-flex items-center gap-2 mt-10 font-cinzel text-sm font-bold text-[#0A1C35] group-nav hover:text-[#B9975B] transition w-max">
-                  LEARN MORE <ChevronRight className="w-4 h-4 group-hover:translate-x-1.5 transition" />
+                  Learn More <ChevronRight className="w-4 h-4 group-hover:translate-x-1.5 transition" />
                 </Link>
               </motion.div>
             ))}

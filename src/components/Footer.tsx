@@ -13,13 +13,13 @@ export default function Footer() {
             </div>
             <div className="border-t border-[#B9975B]/50 pt-1.5 pb-0.5 mt-2 w-full max-w-[200px]">
               <h2 className="text-lg font-cinzel font-bold text-[#F5F2EA] tracking-wide whitespace-nowrap">
-                VADHERA & ASSOCIATES
+                Vadhera & Associates
               </h2>
             </div>
             <div className="border-b border-[#B9975B]/50 pb-1.5 w-full max-w-[200px]">
-              <p className="text-[#B9975B] font-sans font-semibold tracking-widest text-[6px] uppercase inline-flex items-center gap-1 whitespace-nowrap">
+              <p className="text-[#B9975B] font-sans font-semibold tracking-widest text-[6px] inline-flex items-center gap-1 whitespace-nowrap">
                 <span className="w-0.5 h-0.5 rounded-full bg-[#B9975B]"></span>
-                ADVOCATES • SOLICITORS • LEGAL COUNSEL
+                Advocates • Solicitors • Legal Counsel
                 <span className="w-0.5 h-0.5 rounded-full bg-[#B9975B]"></span>
               </p>
             </div>
@@ -27,7 +27,7 @@ export default function Footer() {
           <p className="text-[#F5F2EA]/60 font-lora leading-relaxed text-sm mb-6">
             Providing uncompromising legal advocacy and advisory services with a legacy of excellence since 1998.
           </p>
-          <div className="font-cinzel text-[#B9975B] font-bold tracking-widest text-sm">EST. 1998</div>
+          <div className="font-cinzel text-[#B9975B] font-bold tracking-widest text-sm">Est. 1998</div>
         </div>
 
         <div>

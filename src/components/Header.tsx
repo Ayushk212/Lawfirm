@@ -17,24 +17,24 @@ export default function Header() {
           </div>
           <div className="border-t border-[#B9975B]/40 pt-1 mt-1.5 w-full">
             <h1 className="text-base md:text-xl font-cinzel font-bold text-[#0A1C35] tracking-wide text-center whitespace-nowrap">
-              VADHERA & ASSOCIATES
+              Vadhera & Associates
             </h1>
           </div>
           <div className="border-b border-[#B9975B]/40 pb-1 mb-1 w-full text-center">
-            <p className="text-[#B9975B] font-sans font-bold tracking-widest text-[6px] md:text-[8px] uppercase inline-flex items-center gap-1.5 whitespace-nowrap">
+            <p className="text-[#B9975B] font-sans font-bold tracking-widest text-[6px] md:text-[8px] inline-flex items-center gap-1.5 whitespace-nowrap">
               <span className="w-1 h-1 rounded-full bg-[#B9975B]"></span>
-              ADVOCATES • SOLICITORS • LEGAL COUNSEL
+              Advocates • Solicitors • Legal Counsel
               <span className="w-1 h-1 rounded-full bg-[#B9975B]"></span>
             </p>
           </div>
         </NavLink>
 
         <nav className="flex flex-wrap lg:flex-nowrap gap-4 lg:gap-8 font-cinzel text-xs md:text-sm font-semibold text-[#0A1C35] whitespace-nowrap justify-center mt-2 xl:mt-0">
-          <NavLink to="/" className={linkClass}>HOME</NavLink>
-          <NavLink to="/about" className={linkClass}>OUR FIRM</NavLink>
-          <NavLink to="/practice-areas" className={linkClass}>PRACTICE AREAS</NavLink>
-          <NavLink to="/attorneys" className={linkClass}>ATTORNEYS</NavLink>
-          <NavLink to="/contact" className={linkClass}>CONTACT</NavLink>
+          <NavLink to="/" className={linkClass}>Home</NavLink>
+          <NavLink to="/about" className={linkClass}>Our Firm</NavLink>
+          <NavLink to="/practice-areas" className={linkClass}>Practice Areas</NavLink>
+          <NavLink to="/attorneys" className={linkClass}>Attorneys</NavLink>
+          <NavLink to="/contact" className={linkClass}>Contact</NavLink>
         </nav>
       </div>
     </header>

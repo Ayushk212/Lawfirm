@@ -69,7 +69,7 @@ export default function PracticeAreas() {
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
             className="text-4xl md:text-6xl font-cinzel font-bold text-white tracking-wide"
           >
-            PRACTICE AREAS
+            Practice Areas
           </motion.h1>
           <motion.div 
             initial={{ scaleX: 0 }}
@@ -81,7 +81,7 @@ export default function PracticeAreas() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.4 }}
-            className="text-lg md:text-xl text-[#B9975B] font-cormorant font-medium mt-3 uppercase tracking-widest"
+            className="text-lg md:text-xl text-[#B9975B] font-cormorant font-medium mt-3 tracking-widest"
           >
             Expert Representation Across Key Disciplines
           </motion.p>
@@ -114,7 +114,7 @@ export default function PracticeAreas() {
                   {p.desc}
                 </p>
                 <div className="border-t border-[#B9975B]/20 pt-6">
-                  <h4 className="font-cinzel text-[#0A1C35] text-xs font-bold tracking-wider mb-4 uppercase">Key Services</h4>
+                  <h4 className="font-cinzel text-[#0A1C35] text-xs font-bold tracking-wider mb-4">Key Services</h4>
                   <ul className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {p.services.map((srv, sIdx) => (
                       <li key={sIdx} className="flex items-center gap-2.5 text-[#0A1C35]/70 text-sm font-sans">
@@ -128,7 +128,7 @@ export default function PracticeAreas() {
               
               <div className="mt-8 pt-6 border-t border-[#B9975B]/20 flex justify-end">
                 <Link to="/contact" className="inline-flex items-center gap-1.5 font-cinzel text-xs font-bold text-[#0A1C35] hover:text-[#B9975B] transition">
-                  REQUEST CONSULTATION <ChevronRight className="w-3.5 h-3.5" />
+                  Request Consultation <ChevronRight className="w-3.5 h-3.5" />
                 </Link>
               </div>
             </motion.div>
@@ -145,7 +145,7 @@ export default function PracticeAreas() {
           </p>
           <Link to="/contact">
             <button className="bg-[#B9975B] text-[#0A1C35] font-cinzel font-bold tracking-widest px-8 py-4 hover:bg-white hover:text-[#0A1C35] transition border border-[#B9975B] text-xs shadow-2xl cursor-pointer">
-              GET IN TOUCH
+              Get in Touch
             </button>
           </Link>
         </div>

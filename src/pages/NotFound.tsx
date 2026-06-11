@@ -28,7 +28,7 @@ export default function NotFound() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.15 }}
-          className="font-cinzel text-2xl md:text-3xl font-semibold tracking-wider text-[#B9975B] uppercase mb-6"
+          className="font-cinzel text-2xl md:text-3xl font-semibold tracking-wider text-[#B9975B] mb-6"
         >
           Case Dismissed
         </motion.h2>
@@ -56,7 +56,7 @@ export default function NotFound() {
         >
           <Link to="/">
             <button className="inline-flex items-center gap-2 bg-[#0A1C35] text-white px-8 py-4 hover:bg-[#B9975B] hover:text-[#0A1C35] transition font-cinzel text-xs font-bold tracking-widest cursor-pointer shadow-lg">
-              <ChevronLeft className="w-4 h-4" /> BACK TO COURT (HOME)
+              <ChevronLeft className="w-4 h-4" /> Back to Court (Home)
             </button>
           </Link>
         </motion.div>
