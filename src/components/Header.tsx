@@ -8,12 +8,12 @@ export default function Header() {
 
   return (
     <header className="bg-[#F5F2EA] py-3 lg:py-4 border-b border-[#B9975B]/30 sticky top-0 z-50">
-      <div className="w-full pr-6 lg:pr-12 flex flex-col xl:flex-row justify-between items-center gap-4 xl:gap-8" style={{ paddingLeft: '48px', marginLeft: '0px', height: '109.6px' }}>
-        <NavLink to="/" className="shrink-0 flex items-center">
+      <div className="w-full pr-6 lg:pr-12 flex flex-col xl:flex-row justify-between items-center gap-4 xl:gap-8" style={{ paddingLeft: '48px', marginLeft: '0px', minHeight: '109.6px' }}>
+        <NavLink to="/" className="shrink-0 flex items-center py-2">
           <img 
             src="/logo_dark.png" 
             alt="Vadhera & Associates Logo" 
-            className="h-16 md:h-20 w-auto object-contain transition-opacity duration-300 hover:opacity-90"
+            className="h-28 md:h-36 w-auto object-contain transition-opacity duration-300 hover:opacity-90"
           />
         </NavLink>
 
