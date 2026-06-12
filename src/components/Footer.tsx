@@ -1,28 +1,17 @@
 import { Link } from 'react-router-dom';
-import { Scale, MapPin, Phone, Mail } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
 
 export default function Footer() {
   return (
     <footer className="bg-[#0A1C35] pt-24 pb-12 text-[#F5F2EA] border-t-8 border-[#B9975B]">
       <div className="w-full px-6 md:px-12 lg:px-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-16 mb-16">
         <div className="lg:col-span-1">
-          <Link to="/" className="text-left flex flex-col items-start shrink-0 mb-6 group w-max">
-            <div className="relative flex justify-center w-max">
-              <span className="text-3xl font-cinzel text-[#F5F2EA] font-bold leading-none select-none">V</span>
-              <Scale className="w-5 h-5 text-[#F5F2EA] absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[45%] group-hover:rotate-12 transition-transform duration-300" strokeWidth={1} />
-            </div>
-            <div className="border-t border-[#B9975B]/50 pt-1.5 pb-0.5 mt-2 w-full max-w-[200px]">
-              <h2 className="text-lg font-cinzel font-bold text-[#F5F2EA] tracking-wide whitespace-nowrap">
-                Vadhera & Associates
-              </h2>
-            </div>
-            <div className="border-b border-[#B9975B]/50 pb-1.5 w-full max-w-[200px]">
-              <p className="text-[#B9975B] font-sans font-semibold tracking-widest text-[6px] inline-flex items-center gap-1 whitespace-nowrap">
-                <span className="w-0.5 h-0.5 rounded-full bg-[#B9975B]"></span>
-                Advocates • Solicitors • Legal Counsel
-                <span className="w-0.5 h-0.5 rounded-full bg-[#B9975B]"></span>
-              </p>
-            </div>
+          <Link to="/" className="shrink-0 mb-6 block w-max">
+            <img 
+              src="/logo_light.png" 
+              alt="Vadhera & Associates Logo" 
+              className="h-16 md:h-20 w-auto object-contain transition-opacity duration-300 hover:opacity-90"
+            />
           </Link>
           <p className="text-[#F5F2EA]/60 font-lora leading-relaxed text-sm mb-6">
             Providing uncompromising legal advocacy and advisory services with a legacy of excellence since 1998.
